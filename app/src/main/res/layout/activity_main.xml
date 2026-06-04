@@ -18,12 +18,12 @@
         android:id="@+id/btnPos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="+"/>
+        android:text="+3"/>
 
     <Button
         android:id="@+id/btnNeg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="-"/>
+        android:text="-5"/>
 
 </LinearLayout>

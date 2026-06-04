@@ -26,13 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
         btnPos.setOnClickListener(v -> {
 
-            counts++;
+            counts+=3;
             txtCountdown.setText("count: "+counts);
         });
 
         btnNeg.setOnClickListener(v -> {
 
-            counts--;
+            counts-=5;
             txtCountdown.setText("count: "+counts);
         });
     }
